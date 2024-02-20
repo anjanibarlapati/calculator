@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class addition
+class main
 {
     public static void main(String[] args)
     {
@@ -8,5 +8,6 @@ class addition
         a=sc.nextInt();
         b=sc.nextInt();
         System.out.println("Sum of given two numbers is: "+(a+b));
+        System.out.println("Difference of given two numbers is: "+(a-b));
     }
 }
